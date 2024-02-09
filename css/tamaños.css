@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.flex{ display: flex}
+
+.row{    flex-direction: row;}
+.column{ flex-direction: column;}
+.row-reverse{ flex-direction: row-reverse;}
+
+/*.purple{   background-color: rgb(114, 6, 109);}
+.purple2{ background-color: #c979c4;}
+.white{  background-color: white;}*/
+
+
+.size1{ flex: 1; }
+.size2{ flex: 2; }
+.size3{ flex: 3; }
+.size4{ flex: 4; }
+.size5{ flex: 5; }
+.size6{ flex: 6; }
+.size7{ flex: 7; }
+.size8{ flex: 8; }
+.size9{ flex: 9; }
