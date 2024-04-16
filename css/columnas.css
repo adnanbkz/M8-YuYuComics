@@ -6,21 +6,6 @@
 
 }
 
-header {
-    height: 10vh;
-
-}
-nav{
-  height: 5vh;
-}
-aside, main {
-    height: 70vh;
-}
-
-footer {
-    height: 15vh;
-}
-
 .row::after {
     content: "";
     clear: both;
