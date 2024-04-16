@@ -1,0 +1,26 @@
+    /*CONFIGURACIÓ GENERAL*/
+* {
+    font-family: Andale Mono,AndaleMono,monospace; 
+    text-decoration: none;
+    scroll-behavior:smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    font-size: 1.3rem;
+
+}
+
+
+header {
+
+}
+
+footer {
+
+}
+
