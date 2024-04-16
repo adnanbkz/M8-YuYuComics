@@ -2,6 +2,7 @@
 * {
     font-family: Andale Mono,AndaleMono,monospace; 
     text-decoration: none;
+    list-style: none;
     scroll-behavior:smooth;
     margin: 0px;
     padding: 0px;
@@ -12,9 +13,21 @@
 
 nav {
     font-size: 1.3rem;
-
+    
 }
 
+.navlinks {
+    gap: 2rem;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#imagenlogo {
+    height: 5rem;
+    width: 5rem;
+}
 
 header {
 
