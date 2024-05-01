@@ -5,8 +5,13 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+main{
+    height: 80.6vh;
+}
 .container-form{
+    padding-top: 10em;
     width: 100%;
+    height: 100%;
     max-width: 68.75em;
     margin: auto;
     display: grid;
@@ -67,4 +72,7 @@
 }
 .container-form .btn-enviar:hover{
     background: black;
+}
+.info-form a{
+    padding: 0.5em;
 }
