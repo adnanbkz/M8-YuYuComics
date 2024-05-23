@@ -6,7 +6,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 main{
-    height: 80.6vh;
+    height: 87.95vh;
 }
 .container-form{
     padding-top: 10em;
@@ -17,9 +17,8 @@ main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 3.125em;
-    margin-top: 5.625em;
+   
 
-	justify-content: center;
 
 }
 .container-form h2{
