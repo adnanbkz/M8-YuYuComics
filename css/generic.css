@@ -1,16 +1,17 @@
-/*Fuente Poppins*/
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-    
     /*CONFIGURACIÓ GENERAL*/
 * {
-    font-family: Andale Mono,AndaleMono,monospace; 
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     text-decoration: none;
     list-style: none;
     scroll-behavior:smooth;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
 
 
@@ -18,7 +19,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 body {
   background: #f0faff;
@@ -32,6 +32,8 @@ body {
   background: black;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+
 .nav,
 .nav .nav-links {
   display: flex;
@@ -101,15 +103,14 @@ body {
   display: none;
 }
 
-
 #imagenlogo {
     height: 5rem;
     width: 5rem;
 }
 
-header {
+.bold {  font-weight: bolder;}
 
-}
+
 
 main{
     width: 100vw;
@@ -271,4 +272,19 @@ footer {
     width: 40%;
   }
 
-  
+  a {
+    text-decoration: none;
+    color: #555;
+  }
+
+  .red {
+    background-color: red;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  .black-text {
+    color: black;
+  }

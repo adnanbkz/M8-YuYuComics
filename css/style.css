@@ -1,8 +1,69 @@
 .contenedor {
-    max-width: 90 rem;
+    max-width: 90rem;
     margin:auto;
 }
 
-body {
-    
+.categorias {
+    margin: 6rem 0;
+    background-color: #555;
+}
+
+.categorias-2 {
+    margin: 6rem 0;
+    background-color: #F4F4F4;
+}
+
+.column-2 p {
+    font-size: larger;
+}
+
+.column-2 h1 {
+    font-size: xx-large;
+}
+
+.column-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.column-3 img {
+    width: 100%;
+}
+
+.header .row {
+    margin-top: 70px;
+}
+
+.small-container {
+    max-width: 67.5rem;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.comics {
+    gap: 1rem;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+.titulo h1 {
+    justify-content: center;
+    text-align: center;
+    color: azure;
+    font-weight: bolder;
+    padding: 2rem 2rem;
+    font-size:xx-large;
+    font-family: "Playfair Display", serif;
+}
+
+.titulo-2 h1 {
+    justify-content: center;
+    text-align: center;
+    color: #555;
+    font-weight: bolder;
+    padding: 2rem 2rem;
+    font-size:xx-large;
+    font-family: "Playfair Display", serif;
 }
